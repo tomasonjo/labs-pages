@@ -169,9 +169,10 @@ uvicorn score:app --reload
 [options="header",cols="m,a,m,a"]
 |===
 | Env Variable Name | Mandatory/Optional | Default Value | Description
-| BACKEND_API_URL | Optional | http://localhost:8000 | URL for backend API
-| REACT_APP_SOURCES | Optional | local,youtube,wiki,s3 | List of input sources that will be available
-| BLOOM_URL | Optional | https://workspace-preview.neo4j.io/workspace/explore?connectURL={CONNECT_URL}&search=Show+me+a+graph | URL for Bloom visualization
+| VITE_BACKEND_API_URL | Optional | http://localhost:8000 | URL for backend API
+| VITE_SOURCES | Optional | local,youtube,wiki,s3 | List of input sources that will be available
+| VITE_BLOOM_URL | Optional | https://workspace-preview.neo4j.io/workspace/explore?connectURL={CONNECT_URL}&search=Show+me+a+graph | URL for Bloom visualization
+| VITE_LLM_MODELS | Mandatory | diffbot,gpt-4o,gpt-4o-mini | Comma separated list of LLM Model names to show in the selector
 |===
 
 
@@ -191,7 +192,7 @@ uvicorn score:app --reload
 [options="header",cols="m,a,m,a"]
 |===
 | Env Variable Name | Mandatory/Optional | Default Value | Description
-| LLM_MODELS | Optional | diffbot,gpt-3.5,gpt-4o | Models available for selection on the frontend, used for entities extraction and Q&A Chatbot (other models: `gemini-1.0-pro, gemini-1.5-pro`)
+| VITE_LLM_MODELS | Optional | diffbot,gpt-3.5,gpt-4o | Models available for selection on the frontend, used for entities extraction and Q&A Chatbot (other models: `gemini-1.0-pro, gemini-1.5-pro`)
 | OPENAI_API_KEY | Optional | sk-... | API key for OpenAI (if enabled)
 | DIFFBOT_API_KEY | Optional | | API key for Diffbot (if enabled)
 | EMBEDDING_MODEL | Optional | all-MiniLM-L6-v2 | Model for generating the text embedding (all-MiniLM-L6-v2 , openai , vertexai)

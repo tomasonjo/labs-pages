@@ -78,10 +78,10 @@ LLM_MODEL_CONFIG_ollama_llama3="llama3,http://host.docker.internal:11434"
 LLM_MODEL_CONFIG_fireworks_qwen_72b="accounts/fireworks/models/qwen2-72b-instruct,<api-key>"
 
 # Optional Frontend config
-LLM_MODELS="diffbot,gpt-3.5,gpt-4o,azure_ai_gpt_35,azure_ai_gpt_4o,groq_llama3_70b,anthropic_claude_35_sonnet,fireworks_llama_v3_70b,bedrock_claude_35_sonnet,ollama_llama3,fireworks_qwen_72b"
+VITE_LLM_MODELS="diffbot,gpt-3.5,gpt-4o,azure_ai_gpt_35,azure_ai_gpt_4o,groq_llama3_70b,anthropic_claude_35_sonnet,fireworks_llama_v3_70b,bedrock_claude_35_sonnet,ollama_llama3,fireworks_qwen_72b"
 ----
 
-In your `docker-compose.yml` you need to pass the variables through:
+In your `docker-compose.yml` you sadly need to pass the variables through:
 
 [source,yaml]
 ----
@@ -102,14 +102,14 @@ This is the default config applied if you do not overwrite it in your .env file:
 
 [source,env]
 ----
-REACT_APP_SOURCES="local,youtube,wiki,s3"
+VITE_SOURCES="local,youtube,wiki,s3"
 ----
 
 If however you want the Google GCS integration, add `gcs` and your Google client ID:
 
 [source,env]
 ----
-REACT_APP_SOURCES="local,youtube,wiki,s3,gcs"
+VITE_SOURCES="local,youtube,wiki,s3,gcs"
 GOOGLE_CLIENT_ID="xxxx"
 ----
 

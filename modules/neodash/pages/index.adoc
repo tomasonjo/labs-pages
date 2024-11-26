@@ -1,3 +1,10 @@
+[NOTE]
+====
+This documentation pertains to the unsupported version of NeoDash, as part of Neo4j Labs.
+For users of the supported NeoDash offering, refer to https://neo4j.com/docs/neodash-commercial/[NeoDash commercial].
+
+====
+
 = NeoDash - Dashboard Builder for Neo4j
 :imagesdir: https://s3.amazonaws.com/dev.assets.neo4j.com/wp-content/uploads
 :slug: neodash
@@ -19,7 +26,7 @@
 image::neodash.png[width=800]
 
 
-NeoDash is an open-source, low-code Dashboard Builder for Neo4j. It lets you build an interactive dashboard with tables, graphs, bar charts, line charts, maps and more.
+NeoDash is a low-code Dashboard Builder for Neo4j. It lets you build an interactive dashboard with tables, graphs, bar charts, line charts, maps and more.
 
 == Availability & Installation
 

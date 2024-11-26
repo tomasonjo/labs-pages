@@ -30,7 +30,7 @@ The Neo4j integration covers both the vector store as well as query generation f
 
 The Neo4j Vector integration supports a number of operations
 
-* create vector from langchain documents
+* create vector from LlamaIndex documents
 * query vector
 * query vector with additional graph retrieval Cypher query
 * construct vector instance from existing graph data

@@ -9,13 +9,7 @@ include::_graphacademy_llm.adoc[]
 :page-pagination:
 :page-product: llm-graph-builder
 :imagesdir: https://dev.assets.neo4j.com/wp-content/uploads/2024/
-// Developer survey
-:page-ad-icon: ~
-:page-ad-title: Neo4j Developer Survey
-:page-ad-description: Your input matters! Share your Feedback
-:page-ad-underline-role: button
-:page-ad-underline: Start Here
-:page-ad-link: https://neo4j.typeform.com/to/E6yOZ2Py?utm_source=GA&utm_medium=blurb&utm_campaign=survey
+include::_developer_survey.adoc[]
 
 
 // image::llm-graph-builder.png[width=600, align=center]

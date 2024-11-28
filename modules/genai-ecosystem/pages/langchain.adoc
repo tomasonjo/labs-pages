@@ -7,13 +7,7 @@ include::_graphacademy_llm.adoc[]
 :neo4j-versions: 5.x
 :page-pagination:
 :page-product: langchain
-// Developer survey
-:page-ad-icon: ~
-:page-ad-title: Neo4j Developer Survey
-:page-ad-description: Your input matters! Share your Feedback
-:page-ad-underline-role: button
-:page-ad-underline: Start Here
-:page-ad-link: https://neo4j.typeform.com/to/E6yOZ2Py?utm_source=GA&utm_medium=blurb&utm_campaign=survey
+include::_developer_survey.adoc[]
 
 
 image::https://dist.neo4j.com/wp-content/uploads/20230615211357/1AH05dvGA_7db_EMySc9AAw.png[width=800]

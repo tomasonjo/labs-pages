@@ -7,6 +7,7 @@
 **** xref:neoconverse.adoc[NeoConverse]
 **** xref:genai-stack.adoc[GenAI Stack]
 *** Neo4j GenAI Features
+**** xref:graphrag-python.adoc[GraphRAG Python Package]
 **** xref:vector-search.adoc[Vector Index and Search]
 **** xref:apoc-genai.adoc[APOC GenAI]
 *** Cloud Examples

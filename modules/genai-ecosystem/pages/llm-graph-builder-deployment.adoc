@@ -171,7 +171,7 @@ uvicorn score:app --reload
 | Env Variable Name | Mandatory/Optional | Default Value | Description
 | VITE_BACKEND_API_URL | Optional | http://localhost:8000 | URL for backend API
 | VITE_SOURCES | Optional | local,youtube,wiki,s3 | List of input sources that will be available
-| VITE_BLOOM_URL | Optional | https://workspace-preview.neo4j.io/workspace/explore?connectURL={CONNECT_URL}&search=Show+me+a+graph | URL for Bloom visualization
+| VITE_BLOOM_URL | Optional | https://workspace-preview.neo4j.io/workspace/explore?connectURL=\{CONNECT_URL\}&search=Show+me+a+graph | URL for Bloom visualization
 | VITE_LLM_MODELS | Mandatory | diffbot,gpt-4o,gpt-4o-mini | Comma separated list of LLM Model names to show in the selector
 |===
 

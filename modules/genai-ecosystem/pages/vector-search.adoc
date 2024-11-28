@@ -1,5 +1,6 @@
 = Neo4j Vector Index and Search
 include::_graphacademy_llm.adoc[]
+include::_developer_survey.adoc[]
 :slug: vector-search
 :author: 
 :category: genai-ecosystem
@@ -7,13 +8,6 @@ include::_graphacademy_llm.adoc[]
 :neo4j-versions: 5.11+
 :page-pagination:
 :page-product: neo4j
-// Developer survey
-:page-ad-icon: ~
-:page-ad-title: Neo4j Developer Survey
-:page-ad-description: Your input matters! Share your Feedback
-:page-ad-underline-role: button
-:page-ad-underline: Start Here
-:page-ad-link: https://neo4j.typeform.com/to/E6yOZ2Py?utm_source=GA&utm_medium=blurb&utm_campaign=survey
 
 
 image::https://dist.neo4j.com/wp-content/uploads/20230821135317/Grounding-LLM-Responses-with-Implicit-and-Explicit-Search-Through-Neo4js-Knowledge-Graph-2048x1152.png[width=800]

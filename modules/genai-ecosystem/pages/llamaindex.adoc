@@ -6,14 +6,7 @@
 :neo4j-versions: 5.x
 :page-pagination:
 :page-product: llamaindex
-// Developer survey
-:page-ad-icon: ~
-:page-ad-title: Neo4j Developer Survey
-:page-ad-description: Your input matters! Share your Feedback
-:page-ad-underline-role: button
-:page-ad-underline: Start Here
-:page-ad-link: https://neo4j.typeform.com/to/E6yOZ2Py?utm_source=GA&utm_medium=blurb&utm_campaign=survey
-
+include::_developer_survey.adoc[]
 
 // image::todo.png[width=800]
 

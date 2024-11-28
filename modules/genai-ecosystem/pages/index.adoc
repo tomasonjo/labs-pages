@@ -8,13 +8,7 @@ include::_graphacademy_llm.adoc[]
 :neo4j-versions: 5.X
 :page-pagination:
 :page-product: GenAI Ecosystem
-// Developer survey
-:page-ad-icon: ~
-:page-ad-title: Neo4j Developer Survey
-:page-ad-description: Your input matters! Share your Feedback
-:page-ad-underline-role: button
-:page-ad-underline: Start Here
-:page-ad-link: https://neo4j.typeform.com/to/E6yOZ2Py?utm_source=GA&utm_medium=blurb&utm_campaign=survey
+include::_developer_survey.adoc[]
 
 
 image::https://dist.neo4j.com/wp-content/uploads/20231030151119/genai-art-diagram-1.svg[width=800]
@@ -79,6 +73,7 @@ Neo4j has worked with the main cloud providers to create GenAI integrations and 
 
 Neo4j added a number of features to make it easier to build GenAI applications and integrate LLMs with knowledge graphs.
 
+* xref:graphrag-python.adoc[GraphRAG Package (Python)]
 * xref:vector-search.adoc[Vector Index & Search]
 * xref:apoc-genai.adoc[APOC GenAI Procedures]
 

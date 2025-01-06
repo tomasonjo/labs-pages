@@ -2,3 +2,4 @@
 # Add these to github.com/neo-technology/neo4j.com => /src/nginx/includes/neo4j.com.redirects
 
 rewrite ^/labs/nsmtx-rdf*$ /labs/neosemantics/ permanent;
+rewrite ^/labs/helm-charts*$ /docs/operations-manual/current/kubernetes/ permanent;

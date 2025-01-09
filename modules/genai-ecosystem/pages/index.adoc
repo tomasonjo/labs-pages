@@ -58,7 +58,6 @@ In Neo4j Labs we built a number of tools, to demonstrate the power of combining 
 
 * xref:llm-graph-builder.adoc[LLM Knowledge Graph Builder]
 * xref:neoconverse.adoc[NeoConverse multi-dataset query, chat, visualization]
-* xref:rag-demo.adoc[GraphRAG (Retrieval Augmented Generation) Demo]
 * xref:genai-stack.adoc[GenAI Stack (with Docker, Ollama, Neo4j, and LangChain)]
 
 === Cloud Examples
